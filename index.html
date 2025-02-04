@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Crochê Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-shirt" id="nav_logo"> Crochet</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home"> Início </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#itens"> Itens </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projetos"> Projetos </a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                 Faça agora
+            </button>
+
+            <button id="mobile_btn">
+                <i class = "fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home"> Início </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#itens"> Itens </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projetos"> Projetos </a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Faça agora
+           </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O Crochê que molda 
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    O suporte perfeito para você que é apaixonado pela arte do crochê, aqui encontrará tudo de necessário, itens para te auxiliar e projetos para expandir suas ideias!
+                </p>
+
+                <div id="cta_button">
+                    <a href="#itens" class="btn-default">
+                        Ver items
+                    </a>
+
+                    <a href="tel: +5511942003859" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 94200-3859
+                    </a>
+                </div>
+
+                <div class="social-media-button">
+                    <a href="https://wa.me/5511971755052?text=Olá,%20gostou%20do%20site%20sobre%20crochê?%20Passe%20seu%20feedback!" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/luu_passos/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@luu_passos/video/7380841240067050758?lang=pt-BR" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/DALL·E 2025-02-03 20.37.42 - A beautifully arranged display of crochet items in shades of purple. The image includes a variety of crochet projects such as doilies, flowers, small .webp">
+            </div>
+        </section>
+
+        <section id="itens">
+            <h2 class="section-title"> Itens </h2>
+            <h3 class="section-subtitle"> Nossos itens especiais</h3>
+
+            <div id="items">
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/novelos.jpg" class="item-img" alt="">
+                    <h3 class="item-titulo">
+                        Novelos de Lã
+                    </h3>
+                    <span class="descricao-item">
+                        Com diversas cores e tamanhos para aumentar seu desempenho.
+                    </span>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/agulhas.jpg" class="item-img" alt="">
+                    <h3 class="item-titulo">
+                        Agulhas 
+                    </h3>
+                    <span class="descricao-item">
+                        Diferentes expessuras de agulhas para se apropriar para o seu novelo.
+                    </span>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/bolsa_croche.webp" class="item-img" alt="">
+                    <h3 class="item-titulo">
+                        Bolsa para Crochê
+                    </h3>
+                    <span class="descricao-item">
+                        Uma bagagem onde você pode carregar tudo que precisa para fazer um ótimo crochê.
+                    </span>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/tesoura_croche.jpg" class="item-img" alt="">
+                    <h3 class="item-titulo">
+                        Tesoura Crochê
+                    </h3>
+                    <span class="descricao-item">
+                        Com ótima ponta para que você tenha precisão no corte da sua linha.
+                    </span>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2 class="section-title"> Projetos </h2>
+            <h3 class="section-subtitle"> Crochês para fazer</h3>
+
+            <div id="items">
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/Bolsa_iniciante.png" class="item-img-proj" alt="">
+                    <h3 class="item-titulo">
+                        Bolsa para iniciantes
+                    </h3>
+                    <span class="descricao-item">
+                        Bolsa rosa útil e perfeita para quem está começando a fazer crochê.
+                    </span>
+                    <button class="btn-default">
+                        <a href="https://www.youtube.com/watch?v=T-Q95YA4Vsk" target="_blank" >
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </button>
+                </div>
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/Top_vermelho.png" class="item-img-proj" alt="">
+                    <h3 class="item-titulo">
+                        Cardigan + Top
+                    </h3>
+                    <span class="descricao-item">
+                        Cardigan vermelho juntando com um top branco é a combinação perfeita para você.
+                    </span>
+                    <button class="btn-default">
+                        <a href="https://www.youtube.com/watch?v=LhpCRVh7ECE" target="_blank" >
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </button>
+                </div>
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/Captura de tela 2025-02-04 010330.png" class="item-img-proj" alt="">
+                    <h3 class="item-titulo">
+                        Top delicado e confotável
+                    </h3>
+                    <span class="descricao-item">
+                        Peça super linda e além de tudo, muito confotável, venha aprendar como fazer.
+                    </span>
+                    <button class="btn-default">
+                        <a href="https://www.youtube.com/watch?v=K7JNr1UhHIc" target="_blank" >
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </button>
+                </div>
+                <div class="item">
+                    <div class="item-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/Captura de tela 2025-02-04 010604.png" class="item-img-proj" alt="">
+                    <h3 class="item-titulo">
+                        Gorro Econômico
+                    </h3>
+                    <span class="descricao-item">
+                        Tocas lindas e super faceis de fazer para esquentar seu dia.
+                    </span>
+                    <button class="btn-default">
+                        <a href="https://www.youtube.com/watch?v=4LK08b5HLFU" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+
+            <span id="copyright">
+                &copy 2025 Pedro Henrique Valim
+            </span>
+
+            <div class="social-media-button">
+                <a href="https://wa.me/551194200359?text=Olá,%20gostou%20do%20site%20sobre%20crochê?%20Passe%20seu%20feedback!" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/pehenrique._/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@pehenrique._" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
